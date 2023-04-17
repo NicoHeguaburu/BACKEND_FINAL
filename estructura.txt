@@ -1,0 +1,21 @@
+- app.js
+- package.json
+- controllers/
+  - authController.js
+  - productoController.js
+  - carritoController.js
+- models/
+  - usuarioModel.js
+  - productoModel.js
+  - carritoModel.js
+- routes/
+  - authRoutes.js
+  - productoRoutes.js
+  - carritoRoutes.js
+- views/
+  - configuracion.pug
+- public/
+  - css/
+    - style.css
+  - js/
+    - main.js

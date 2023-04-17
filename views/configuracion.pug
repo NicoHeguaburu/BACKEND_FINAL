@@ -1,0 +1,24 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Configuración de servidor
+  body
+    h1 Configuración de servidor
+    table
+      tr
+        td Servidor:
+        td= configuracion.servidor
+      tr
+        td Puerto:
+        td= configuracion.puerto
+      tr
+        td Base de datos:
+        td= configuracion.baseDeDatos
+      tr
+        td Usuario de base de datos:
+        td= configuracion.usuario
+      tr
+        td Contraseña de base de datos:
+        td= configuracion.contraseña
